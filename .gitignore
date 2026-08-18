@@ -1,0 +1,54 @@
+touch .gitignore
+git add .gitignore
+git commit -m "chore: adiciona arquivo gitignore"
+
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editores e IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+
+# Dependências
+node_modules/
+vendor/
+
+# Build e distribuição
+dist/
+build/
+out/
+
+# Cache
+.cache/
+.tmp/
+temp/
+
+# Arquivos de cobertura de testes
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Java
+target/
+*.class
+
+# Arquivos compactados
+*.zip
+*.tar.gz
+*.rar
+``
